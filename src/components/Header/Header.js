@@ -10,7 +10,7 @@ const Header = () => {
         <div>
           <div className='mx-4 md:mx-16'>
             <div className='py-4'>
-                <button className="btn btn-primary ">For Rent</button>
+                <button className="btn hover:bg-primary normal-case bg-secondary ">For Rent</button>
             </div>
             <h1 className='text-lg md:text-xl lg:text-4xl text-black pb-4 font-semibold'>2BHK Apartment for Sale in Newtown, Kolkata, West Bengal</h1>
             <div className='flex gap-4'>
@@ -54,7 +54,7 @@ const Header = () => {
                     <button className='h-full mr-2'>
                         <img className='h-12 max-w-fit' src={whatsAppBtn} alt="" />
                     </button>
-                    <button className=' btn bg-primary text-white rounded-md shadow-md px-16'>Contact Owner</button>
+                    <button className='btn hover:bg-primary  bg-secondary text-white rounded-md shadow-md px-16'>Contact Owner</button>
                 </div>
             </div>
           </div>

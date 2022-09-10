@@ -1,5 +1,11 @@
+.bg-primary{
+    background: #352089;
+}
+.bg-secondary{
+    background: #7F56D9;
+}
 .photo-shadow{
-    box-shadow: 2px 6px 6px gray;
+    box-shadow: 2px 4px 5px rgb(52, 50, 50);
     border-radius: 10px;
 }
 p{
